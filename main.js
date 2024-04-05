@@ -5,8 +5,7 @@ let btn = document.getElementById("btn");
 let taskes = document.getElementById("task_list");
 
 
-let colors =["red", "green", "blue"]
-let i = 0
+
 
 input.addEventListener("keypress", function(event){
 if (event.key === "Enter"){
@@ -30,10 +29,15 @@ if (value != ""){
 
 
   deleteBtn.onclick = function(){
-    task.remove()
+    taskes.appendChild(task);
   }
-task.style.backgroundColor = colors[i % colors.length]
-i++
+
+  //   let colors =["red", "green", "blue"]
+  // let i = Math.floor(Math.random()*colors.length)
+  
+  i= Math.random().toString(16).slice(2, 8)
+  task.style.backgroundColor = "#" + i
+
 
 }
 };

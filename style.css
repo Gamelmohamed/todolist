@@ -4,6 +4,7 @@ justify-content: center;
 background: linear-gradient(to right, rgb(169, 94, 129),rgb(0, 191, 255));
 background-image: url(white-lines-and-spheres.webp) ;
 background-size:cover ;
+background-attachment: fixed;
 height: 100vh;
 
 }
