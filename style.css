@@ -62,13 +62,20 @@ li{
     color: rgb(237, 224, 224);
     font-size: 20px;
     justify-content: space-between;
+    position: relative;
+
 }
 
-.button{
-    width: 40px;
+button{
+    
     height: 23px;
     margin-top: 9px;
-    background-color: rgb(48, 48, 108);
+    background-color: rgb(68, 68, 121);
     color: antiquewhite;
     border-radius: 5px;
+    cursor: pointer;
+    position: ;
+    
+    
+    
     }
